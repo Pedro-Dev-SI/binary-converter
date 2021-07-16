@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Binary Converter</title>
+</head>
+<body>
+
+   <h1>Binary Converter</h1>
+
+   <form>
+
+      <div class="box-input">
+         <input type="number" id="dec-input" name="dec-input" placeholder="Decimal"/>
+         <input type="number" id="bin-output" name="bin-output" value="" placeholder="Binary output"/>
+         <button onClick="convtobin()">Calculate</button>
+      </div>
+
+      <div class="box-input">
+         <input type="number" id="bin-input" name="bin-input" maxlength="8" placeholder="Binary"/>
+         <input type="number" id="dec-output" name="dec-output" value="" placeholder="Decimal output"/>
+         <button onClick="convtodec()">Calculate</button>
+      </div>
+
+      
+
+   </form>
+
+   <script src="main.js"></script>
+</body>
+</html>
